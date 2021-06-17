@@ -9,7 +9,7 @@
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
-            "description": "QR එක ස්කෑන් කල විට ලැබෙන් කේතය. Type here yours Session.",
+            "description": "QR එක ස්කෑන් කල විට ලැබෙන් කේතය.",
             "required": true
         },
         "LANGUAGE": {
@@ -23,12 +23,12 @@
             "value": "^[.]"
         },
         "SEND_READ": {
-            "description": "seen කිරීමට අවශ්‍ය නම් මෙලෙසම තබන්න  Write true if you want to throw seen.",
+            "description": "seen කිරීමට අවශ්‍ය නම් මෙලෙසම තබන්න",
             "required": true,
             "value": "true"
         },
         "HEROKU": {
-            "description": "වෙනස් නොකරන්න! Do not change ",
+            "description": "වෙනස් නොකරන්න! ",
             "required": true,
             "value": "true"
         },
@@ -37,12 +37,12 @@
             "required": true
         },
         "MUTE_MESSAGE": {
-            "description": "කතාව නිහඬ කිරීමේ පනිවුඩය Customizable Mute Message! Use => default, to change back.",
+            "description": "ගෘප් මියුට් කරනකොට එන පනිවුඩය Customizable Mute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "UNMUTE_MESSAGE": {
-            "description": "නැවත කතාකිරීමට අවස්තා ලබාදීමේ පනිවුඩය. Customizable Unmute Message! Use => default, to change back.",
+            "description": "ගෘප් අන්මියුට් පනිවුඩය. Customizable Unmute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
@@ -61,18 +61,25 @@
             "value": "false"
         },
         "CP": {
-            "description": "ලෝගෝ /පින්තුර පහළ ඇති නම වෙනස් කිරිමට අවශ්‍ය නම් මෙහි ඔබට අවශ්‍ය නම ලියන්න.",
+            "description": "ලෝගෝ /පින්තුර පහළ ඇති නම වෙනස් කිරිමට අවශ්‍ය නම් මෙහි ඔබට අවශ්‍ය නම ලියන්න(ඉමොජි එකතු කලහැක ).",
+            "required": false
+        },  
+        "MENU": {
+            "description": ".x ලෙස යෙදු විට එන මේනුවෙහි ඔබගේ නම දීමට මෙහි කෙටි නමක් ලියන්න(ඉමොජි එකතු කලහැක ) .",
             "required": false
         },
-            
         "REMOVE_BG_API_KEY": {
             "description": "මෙම වෙබ් අඩවියෙන් ඔබගේ api එක සාදාගන්න. https://remove.bg",
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "සක්‍රීය පනිවිඩය.  Customizable Alive Message! Use => default, to change back.",
+            "description": " මෙය වෙනස් නොකරන්න.",
             "required": false,
             "value": "default"
+        },
+        "ALIVENAME": {
+            "description": " .alive පණිවුඩයට ඔබගේ නම එකතුකිරීමට මෙහි කෙටි නමක් ලියන්න (ඉමොජි එකතු කලහැක ).",
+            "required": false,
         },
         "BAN_MESSAGE": {
             "description": "පන්නාදැමීමේ පනිවිඩය (මෙය වෙනස් නොකරන්න) Customizable Ban Message! Use => default, to change back.",
