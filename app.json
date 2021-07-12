@@ -114,7 +114,19 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back./ALIVE පණිවිඩය ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
             "required": false,
-            "value": "\n```I AM ALIVE```\n```Type *.bot* ```For info```"
+            "value": "🧧 X-Troid 🧧\nName: X-Troid\nYoutube : youtu.be/mDnJ7q3S3eY"
+        },
+        "ALIVEIMG": {
+            "description": "set custom Alive Image ⚠️must not bigger than 1MB ( can cange after )/.alive විධානයට ඔබට කැමති පින්තුරයක් යොදන්න ⚠️1MB වලට අඩු",
+            "required": false
+        },
+        "CP": {
+            "description": "set custom Image Caption  ( can cange after )/පින්තුර පහලට ඔබට අවශ්‍ය නමක් යොදන්න",
+            "required": false
+        },
+        "MENU": {
+            "description": "Change menu name  ( can cange after )/මෙනු නාමය වෙනස් කිරීමට",
+            "required": false
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.යමෙකු සමුහයෙන් ඉවත් කරීමේ පණිවිඩය වෙනස් කිරීමට",
